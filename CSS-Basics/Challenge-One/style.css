@@ -1,0 +1,29 @@
+#wrap {
+    margin: 0px auto;
+    background-color: rgb(85, 204, 255);
+    width: 774px;
+    height: 564px;
+    padding: 16px 8px;
+    font-family: sans-serif;
+    letter-spacing: -0.5px;
+}
+
+h1 {
+    margin-block-start: 0px;
+    font-weight: bold;
+    font-family: sans-serif; /* I DON'T KNOW HOW TO CHOOSE FONT */
+}
+
+li {
+    text-align: center;
+/*    font-size: 16px;*/
+}
+
+li::first-letter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+}

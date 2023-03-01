@@ -1,0 +1,36 @@
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+
+.line {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.left-block,.right-block {
+    display: inline-block;
+    margin: 5px;
+    background-color: pink;
+    height: 48px;
+    border: 2px solid blue;
+    vertical-align: middle;
+
+}
+
+.left-block {
+    width: 50%;
+}
+
+.right-block {
+    width: 30%;
+/*    margin-right: 5%;*/
+}
+
+#footer {
+    justify-content: center;
+}

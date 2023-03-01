@@ -1,0 +1,35 @@
+body {
+    display: block;
+    margin: 0;
+    background-color: rgb(54, 67, 113);
+    text-align: center;
+    padding-top: 0px;
+}
+#wrap {
+    background-color: rgb(54, 67, 113);
+    display: flex;
+    margin: 0px 100px ;
+}
+
+#content {
+    background-color: rgb(91, 127, 189);
+    width: 80%;
+}
+
+#nav {
+    background-color: rgb(176, 207, 255);
+    width: 20%;
+    text-align: center;
+}
+
+.copyright {
+    background-color: rgb(54, 67, 113);
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+#outter {
+    margin: 0px auto;
+    background-color: rgb(226, 172, 127);
+    border: 8px solid rgb(226, 172, 127);
+    width: 724px;
+}
+
+#wrap {
+    padding-top: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(245, 245, 220);
+    border: dotted ;
+}
+
+p {
+    margin: 0px 10px 0px 10px;
+}
+
+h1 {
+    margin: 0px;
+    border-bottom: dotted;
+    text-align: center;
+    font-style: italic;
+}
+
+li, .copyright{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    font-style: italic;
+}
